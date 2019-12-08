@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="ConatctUsCell" customModule="AnkitGems" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="269"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="268.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0T2-z3-iw4" customClass="ShadowCard" customModule="AnkitGems" customModuleProvider="target">
+                        <rect key="frame" x="8" y="4" width="304" height="260.5"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RgQ-LU-YWn" userLabel="Header View">
+                                <rect key="frame" x="8" y="4" width="288" height="63.5"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login_logo" translatesAutoresizingMaskIntoConstraints="NO" id="oB6-h4-fWS">
+                                        <rect key="frame" x="0.0" y="7" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="Z22-ls-Fbr"/>
+                                            <constraint firstAttribute="height" constant="50" id="g1w-hF-Q7Z"/>
+                                        </constraints>
+                                    </imageView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sJY-BL-bE4">
+                                        <rect key="frame" x="58" y="15.5" width="188" height="34.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Surat - Factory " textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0JY-GM-Owu" userLabel="Surat - Factory" customClass="MMLabel" customModule="AnkitGems" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="188" height="16"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="FontName" value="kRegularFont"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="FontSize">
+                                                        <real key="value" value="16"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="India" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Yt-xd-8M3" customClass="MMLabel" customModule="AnkitGems" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="20.5" width="33" height="14"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="FontName" value="kRegularFont"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="FontSize">
+                                                        <real key="value" value="14"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="TextColorKey" value="kLightTextColor"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="0JY-GM-Owu" firstAttribute="top" secondItem="sJY-BL-bE4" secondAttribute="top" id="9YF-59-la7"/>
+                                            <constraint firstItem="7Yt-xd-8M3" firstAttribute="top" secondItem="0JY-GM-Owu" secondAttribute="bottom" constant="4" id="G7f-sO-DqM"/>
+                                            <constraint firstAttribute="trailing" secondItem="0JY-GM-Owu" secondAttribute="trailing" id="pWZ-aV-rO5"/>
+                                            <constraint firstItem="7Yt-xd-8M3" firstAttribute="leading" secondItem="sJY-BL-bE4" secondAttribute="leading" id="rby-ZD-R6b"/>
+                                            <constraint firstItem="0JY-GM-Owu" firstAttribute="leading" secondItem="sJY-BL-bE4" secondAttribute="leading" id="u1C-oR-5R1"/>
+                                            <constraint firstAttribute="bottom" secondItem="7Yt-xd-8M3" secondAttribute="bottom" id="w3i-BL-pOh"/>
+                                        </constraints>
+                                    </view>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="noImage" translatesAutoresizingMaskIntoConstraints="NO" id="QTJ-28-sTa">
+                                        <rect key="frame" x="250" y="15.5" width="30" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="1di-bB-JJs"/>
+                                            <constraint firstAttribute="width" constant="30" id="UWl-jp-jIk"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="oB6-h4-fWS" firstAttribute="centerY" secondItem="RgQ-LU-YWn" secondAttribute="centerY" id="7NI-N4-h2Y"/>
+                                    <constraint firstItem="QTJ-28-sTa" firstAttribute="leading" secondItem="sJY-BL-bE4" secondAttribute="trailing" constant="4" id="B3y-Kf-d7K"/>
+                                    <constraint firstItem="QTJ-28-sTa" firstAttribute="top" secondItem="sJY-BL-bE4" secondAttribute="top" id="Hwk-dH-i4i"/>
+                                    <constraint firstItem="oB6-h4-fWS" firstAttribute="top" relation="greaterThanOrEqual" secondItem="RgQ-LU-YWn" secondAttribute="top" constant="6" id="KvW-kB-K4D"/>
+                                    <constraint firstItem="oB6-h4-fWS" firstAttribute="leading" secondItem="RgQ-LU-YWn" secondAttribute="leading" id="L8t-xo-1IM"/>
+                                    <constraint firstItem="sJY-BL-bE4" firstAttribute="centerY" secondItem="oB6-h4-fWS" secondAttribute="centerY" id="Yb7-Ul-86S"/>
+                                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="oB6-h4-fWS" secondAttribute="bottom" constant="6" id="aNM-dQ-7vd"/>
+                                    <constraint firstItem="sJY-BL-bE4" firstAttribute="leading" secondItem="oB6-h4-fWS" secondAttribute="trailing" constant="8" id="fcM-PT-GHO"/>
+                                    <constraint firstAttribute="trailing" secondItem="QTJ-28-sTa" secondAttribute="trailing" constant="8" id="yDn-tk-UsF"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5OT-Fy-1yH" userLabel="Line View">
+                                <rect key="frame" x="8" y="68" width="288" height="1"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="sQj-P5-745"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VtB-Xc-2QB" userLabel="Detail View">
+                                <rect key="frame" x="0.0" y="68.5" width="304" height="184"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O31-Lk-QRf" userLabel="View Address">
+                                        <rect key="frame" x="8" y="8" width="288" height="42"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="map" translatesAutoresizingMaskIntoConstraints="NO" id="Oau-pW-vDI">
+                                                <rect key="frame" x="0.0" y="14" width="14" height="14"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="14" id="1jm-kD-WCY"/>
+                                                    <constraint firstAttribute="height" constant="14" id="2cX-nM-3jz"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Plot No. F8-F9, Gujarat Hira Bourse, Gems &amp; Jewellery Park, Ichhapore Surat - 394510." textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fI6-fB-kk1" customClass="MMLabel" customModule="AnkitGems" customModuleProvider="target">
+                                                <rect key="frame" x="22" y="0.0" width="266" height="42"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="FontName" value="kRegularFont"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="FontSize">
+                                                        <real key="value" value="14"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="TextColorKey" value="kLightTextColor"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="fI6-fB-kk1" secondAttribute="bottom" id="IQr-ig-rwI"/>
+                                            <constraint firstItem="fI6-fB-kk1" firstAttribute="leading" secondItem="Oau-pW-vDI" secondAttribute="trailing" constant="8" id="PZY-cb-V2e"/>
+                                            <constraint firstItem="fI6-fB-kk1" firstAttribute="top" secondItem="O31-Lk-QRf" secondAttribute="top" id="bd4-Pe-qMu"/>
+                                            <constraint firstItem="Oau-pW-vDI" firstAttribute="centerY" secondItem="fI6-fB-kk1" secondAttribute="centerY" id="bxq-yE-RX1"/>
+                                            <constraint firstItem="Oau-pW-vDI" firstAttribute="leading" secondItem="O31-Lk-QRf" secondAttribute="leading" id="hiO-VX-smc"/>
+                                            <constraint firstAttribute="trailing" secondItem="fI6-fB-kk1" secondAttribute="trailing" id="uxZ-Vv-Ibu"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K16-PA-ziY" userLabel="View tollfree">
+                                        <rect key="frame" x="8" y="54" width="288" height="26"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="toll-free" translatesAutoresizingMaskIntoConstraints="NO" id="Kgq-M8-ye4">
+                                                <rect key="frame" x="0.0" y="6.5" width="14" height="14"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="14" id="Ncs-Je-YP5"/>
+                                                    <constraint firstAttribute="width" constant="14" id="SQo-zH-Gdv"/>
+                                                </constraints>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mVz-to-hmJ" customClass="MMButton" customModule="AnkitGems" customModuleProvider="target">
+                                                <rect key="frame" x="22" y="0.0" width="51" height="26"/>
+                                                <state key="normal" title="Toll free"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="FontName" value="kRegularFont"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="FontSize">
+                                                        <real key="value" value="14"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="btnTollfree_Clicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="9Bj-Gw-anD"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="mVz-to-hmJ" firstAttribute="leading" secondItem="Kgq-M8-ye4" secondAttribute="trailing" constant="8" id="7bu-IG-AF3"/>
+                                            <constraint firstItem="Kgq-M8-ye4" firstAttribute="centerY" secondItem="mVz-to-hmJ" secondAttribute="centerY" id="8cc-1F-xJn"/>
+                                            <constraint firstItem="Kgq-M8-ye4" firstAttribute="leading" secondItem="K16-PA-ziY" secondAttribute="leading" id="EYN-bs-3dl"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="mVz-to-hmJ" secondAttribute="trailing" id="Fjo-f8-Acd"/>
+                                            <constraint firstAttribute="height" constant="26" id="Mny-Y6-CIm"/>
+                                            <constraint firstAttribute="bottom" secondItem="mVz-to-hmJ" secondAttribute="bottom" id="SHh-NW-0r0"/>
+                                            <constraint firstItem="mVz-to-hmJ" firstAttribute="top" secondItem="K16-PA-ziY" secondAttribute="top" id="Xgy-DM-bLa"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ptg-BE-txB" userLabel="View PhoneNumber">
+                                        <rect key="frame" x="8" y="80" width="288" height="26"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="telephone" translatesAutoresizingMaskIntoConstraints="NO" id="INn-xD-YMj">
+                                                <rect key="frame" x="0.0" y="6.5" width="14" height="14"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="14" id="33M-za-lUs"/>
+                                                    <constraint firstAttribute="width" constant="14" id="mD2-Kq-gWB"/>
+                                                </constraints>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pLV-S4-gHl" customClass="MMButton" customModule="AnkitGems" customModuleProvider="target">
+                                                <rect key="frame" x="22" y="0.0" width="97" height="26"/>
+                                                <state key="normal" title="+852 2721 4642"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="FontName" value="kRegularFont"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="FontSize">
+                                                        <real key="value" value="14"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="btnPhone_Clicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="mP3-GM-mUA"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="pLV-S4-gHl" firstAttribute="leading" secondItem="INn-xD-YMj" secondAttribute="trailing" constant="8" id="5Zq-l3-Fki"/>
+                                            <constraint firstItem="INn-xD-YMj" firstAttribute="centerY" secondItem="pLV-S4-gHl" secondAttribute="centerY" id="Q6v-ha-TPn"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="pLV-S4-gHl" secondAttribute="trailing" id="Qk4-fC-5gX"/>
+                                            <constraint firstItem="pLV-S4-gHl" firstAttribute="top" secondItem="Ptg-BE-txB" secondAttribute="top" id="kvp-hp-mf0"/>
+                                            <constraint firstAttribute="height" constant="26" id="t87-5H-1IN"/>
+                                            <constraint firstItem="INn-xD-YMj" firstAttribute="leading" secondItem="Ptg-BE-txB" secondAttribute="leading" id="tf0-Kc-Brf"/>
+                                            <constraint firstAttribute="bottom" secondItem="pLV-S4-gHl" secondAttribute="bottom" id="zCI-iS-wrd"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0zK-kz-Ocs" userLabel="View email">
+                                        <rect key="frame" x="8" y="106" width="288" height="26"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="envelope" translatesAutoresizingMaskIntoConstraints="NO" id="8lD-hc-m7l">
+                                                <rect key="frame" x="0.0" y="6" width="14" height="14"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="14" id="0RK-5i-0FS"/>
+                                                    <constraint firstAttribute="width" constant="14" id="n7X-Kf-qMu"/>
+                                                </constraints>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nPs-CJ-qoB" customClass="MMButton" customModule="AnkitGems" customModuleProvider="target">
+                                                <rect key="frame" x="22" y="0.0" width="127" height="26"/>
+                                                <state key="normal" title="hk@ankitgems.com"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="FontName" value="kRegularFont"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="FontSize">
+                                                        <real key="value" value="14"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="btnEmail_Clicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="joc-R5-Jr3"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="8lD-hc-m7l" firstAttribute="centerY" secondItem="nPs-CJ-qoB" secondAttribute="centerY" id="G0C-9p-H1N"/>
+                                            <constraint firstItem="8lD-hc-m7l" firstAttribute="leading" secondItem="0zK-kz-Ocs" secondAttribute="leading" id="Mi3-0h-Tap"/>
+                                            <constraint firstAttribute="height" constant="26" id="OBD-jU-IM1"/>
+                                            <constraint firstItem="nPs-CJ-qoB" firstAttribute="top" secondItem="0zK-kz-Ocs" secondAttribute="top" id="Uwf-BE-wcH"/>
+                                            <constraint firstItem="nPs-CJ-qoB" firstAttribute="leading" secondItem="8lD-hc-m7l" secondAttribute="trailing" constant="8" id="Wcd-Dq-yF3"/>
+                                            <constraint firstAttribute="bottom" secondItem="nPs-CJ-qoB" secondAttribute="bottom" id="fra-dF-0lo"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="nPs-CJ-qoB" secondAttribute="trailing" id="iO5-ne-poE"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qDG-BH-fLe" userLabel="View fax">
+                                        <rect key="frame" x="8" y="132" width="288" height="26"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FAX" translatesAutoresizingMaskIntoConstraints="NO" id="Ndw-DE-LPU">
+                                                <rect key="frame" x="0.0" y="6" width="14" height="14"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="14" id="QYf-Ly-Mav"/>
+                                                    <constraint firstAttribute="width" constant="14" id="mu5-so-AuL"/>
+                                                </constraints>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z7u-d3-twk" customClass="MMButton" customModule="AnkitGems" customModuleProvider="target">
+                                                <rect key="frame" x="22" y="0.0" width="97" height="26"/>
+                                                <state key="normal" title="+852 2721 4642"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="FontName" value="kRegularFont"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="FontSize">
+                                                        <real key="value" value="14"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="TextColorKey" value="kLightTextColor"/>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="btnFax_Clicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="HUz-1Y-bue"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="Z7u-d3-twk" firstAttribute="top" secondItem="qDG-BH-fLe" secondAttribute="top" id="1VR-zY-V7i"/>
+                                            <constraint firstItem="Ndw-DE-LPU" firstAttribute="centerY" secondItem="Z7u-d3-twk" secondAttribute="centerY" id="cc1-Lv-CIk"/>
+                                            <constraint firstItem="Z7u-d3-twk" firstAttribute="leading" secondItem="Ndw-DE-LPU" secondAttribute="trailing" constant="8" id="fAy-lc-Zu3"/>
+                                            <constraint firstAttribute="height" constant="26" id="fP1-Vb-SZM"/>
+                                            <constraint firstItem="Ndw-DE-LPU" firstAttribute="leading" secondItem="qDG-BH-fLe" secondAttribute="leading" id="ho8-Hl-aen"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Z7u-d3-twk" secondAttribute="trailing" id="wUt-5H-eVv"/>
+                                            <constraint firstAttribute="bottom" secondItem="Z7u-d3-twk" secondAttribute="bottom" id="yF9-lz-eMb"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pim-JL-JNp" userLabel="View website">
+                                        <rect key="frame" x="8" y="158" width="288" height="26"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="website" translatesAutoresizingMaskIntoConstraints="NO" id="t0j-i4-HxB">
+                                                <rect key="frame" x="0.0" y="6" width="14" height="14"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="14" id="Bnv-M8-HkE"/>
+                                                    <constraint firstAttribute="width" constant="14" id="HCo-QG-LQi"/>
+                                                </constraints>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zfV-MC-rjE" customClass="MMButton" customModule="AnkitGems" customModuleProvider="target">
+                                                <rect key="frame" x="22" y="0.0" width="134" height="26"/>
+                                                <state key="normal" title="www.ankitgems.com"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="FontName" value="kRegularFont"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="FontSize">
+                                                        <real key="value" value="14"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="btnWebsite_Clicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="F7O-lv-KSw"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="zfV-MC-rjE" firstAttribute="top" secondItem="pim-JL-JNp" secondAttribute="top" id="24U-hJ-f4E"/>
+                                            <constraint firstAttribute="height" constant="26" id="BwW-AJ-8uP"/>
+                                            <constraint firstItem="t0j-i4-HxB" firstAttribute="centerY" secondItem="zfV-MC-rjE" secondAttribute="centerY" id="CIE-no-a0d"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="zfV-MC-rjE" secondAttribute="trailing" id="Hb3-qk-I51"/>
+                                            <constraint firstItem="zfV-MC-rjE" firstAttribute="leading" secondItem="t0j-i4-HxB" secondAttribute="trailing" constant="8" id="aUq-iY-Qg7"/>
+                                            <constraint firstItem="t0j-i4-HxB" firstAttribute="leading" secondItem="pim-JL-JNp" secondAttribute="leading" id="d0k-03-JmW"/>
+                                            <constraint firstAttribute="bottom" secondItem="zfV-MC-rjE" secondAttribute="bottom" id="lt2-JA-vIi"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="pim-JL-JNp" secondAttribute="bottom" id="4hw-zE-Lqw"/>
+                                    <constraint firstAttribute="trailing" secondItem="Ptg-BE-txB" secondAttribute="trailing" constant="8" id="5Vp-aU-qfd"/>
+                                    <constraint firstAttribute="trailing" secondItem="O31-Lk-QRf" secondAttribute="trailing" constant="8" id="EA8-0K-VuU"/>
+                                    <constraint firstItem="Ptg-BE-txB" firstAttribute="top" secondItem="K16-PA-ziY" secondAttribute="bottom" id="FTt-8C-xFg"/>
+                                    <constraint firstAttribute="trailing" secondItem="qDG-BH-fLe" secondAttribute="trailing" constant="8" id="IHa-W4-fWq"/>
+                                    <constraint firstItem="qDG-BH-fLe" firstAttribute="leading" secondItem="VtB-Xc-2QB" secondAttribute="leading" constant="8" id="KFd-AO-mto"/>
+                                    <constraint firstItem="pim-JL-JNp" firstAttribute="leading" secondItem="VtB-Xc-2QB" secondAttribute="leading" constant="8" id="NM9-SC-qNd"/>
+                                    <constraint firstItem="K16-PA-ziY" firstAttribute="leading" secondItem="VtB-Xc-2QB" secondAttribute="leading" constant="8" id="QE4-JP-xw1"/>
+                                    <constraint firstItem="qDG-BH-fLe" firstAttribute="top" secondItem="0zK-kz-Ocs" secondAttribute="bottom" id="Qtu-DP-v0n"/>
+                                    <constraint firstItem="pim-JL-JNp" firstAttribute="top" secondItem="qDG-BH-fLe" secondAttribute="bottom" id="R3c-1O-sCc"/>
+                                    <constraint firstAttribute="trailing" secondItem="pim-JL-JNp" secondAttribute="trailing" constant="8" id="UoB-HX-Mf5"/>
+                                    <constraint firstItem="0zK-kz-Ocs" firstAttribute="leading" secondItem="VtB-Xc-2QB" secondAttribute="leading" constant="8" id="Y2J-dg-OHe"/>
+                                    <constraint firstItem="K16-PA-ziY" firstAttribute="top" secondItem="O31-Lk-QRf" secondAttribute="bottom" constant="4" id="ba7-lU-JHm"/>
+                                    <constraint firstAttribute="trailing" secondItem="K16-PA-ziY" secondAttribute="trailing" constant="8" id="fdB-OM-N0x"/>
+                                    <constraint firstItem="0zK-kz-Ocs" firstAttribute="top" secondItem="Ptg-BE-txB" secondAttribute="bottom" id="lHP-UO-nCd"/>
+                                    <constraint firstItem="O31-Lk-QRf" firstAttribute="leading" secondItem="VtB-Xc-2QB" secondAttribute="leading" constant="8" id="mBt-PL-ctA"/>
+                                    <constraint firstItem="O31-Lk-QRf" firstAttribute="top" secondItem="VtB-Xc-2QB" secondAttribute="top" constant="8" id="nNf-93-wfs"/>
+                                    <constraint firstAttribute="trailing" secondItem="0zK-kz-Ocs" secondAttribute="trailing" constant="8" id="t8U-Yg-Ryw"/>
+                                    <constraint firstItem="Ptg-BE-txB" firstAttribute="leading" secondItem="VtB-Xc-2QB" secondAttribute="leading" constant="8" id="tLR-6I-RzE"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="RgQ-LU-YWn" firstAttribute="top" secondItem="0T2-z3-iw4" secondAttribute="top" constant="4" id="5p0-rz-f3G"/>
+                            <constraint firstAttribute="trailing" secondItem="5OT-Fy-1yH" secondAttribute="trailing" constant="8" id="FrF-VQ-fe9"/>
+                            <constraint firstAttribute="bottom" secondItem="VtB-Xc-2QB" secondAttribute="bottom" constant="8" id="KMq-Ko-yiM"/>
+                            <constraint firstItem="VtB-Xc-2QB" firstAttribute="top" secondItem="5OT-Fy-1yH" secondAttribute="bottom" id="M2R-bs-A5o"/>
+                            <constraint firstItem="5OT-Fy-1yH" firstAttribute="leading" secondItem="0T2-z3-iw4" secondAttribute="leading" constant="8" id="O7Z-Pj-iTA"/>
+                            <constraint firstItem="VtB-Xc-2QB" firstAttribute="leading" secondItem="0T2-z3-iw4" secondAttribute="leading" id="Z4q-W0-mVV"/>
+                            <constraint firstAttribute="trailing" secondItem="RgQ-LU-YWn" secondAttribute="trailing" constant="8" id="aSL-WM-x13"/>
+                            <constraint firstItem="5OT-Fy-1yH" firstAttribute="top" secondItem="RgQ-LU-YWn" secondAttribute="bottom" id="mNQ-eF-77v"/>
+                            <constraint firstItem="RgQ-LU-YWn" firstAttribute="leading" secondItem="0T2-z3-iw4" secondAttribute="leading" constant="8" id="qSm-pv-kl9"/>
+                            <constraint firstAttribute="trailing" secondItem="VtB-Xc-2QB" secondAttribute="trailing" id="qWG-yF-Vb9"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="0T2-z3-iw4" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="4" id="2Ts-eN-TgA"/>
+                    <constraint firstItem="0T2-z3-iw4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="Fyf-tP-FXR"/>
+                    <constraint firstAttribute="bottom" secondItem="0T2-z3-iw4" secondAttribute="bottom" constant="4" id="gIK-a3-mVG"/>
+                    <constraint firstAttribute="trailing" secondItem="0T2-z3-iw4" secondAttribute="trailing" constant="8" id="zcu-mU-Kn6"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnEmail" destination="nPs-CJ-qoB" id="jaL-vA-7IY"/>
+                <outlet property="btnFax" destination="Z7u-d3-twk" id="SZK-kj-D4e"/>
+                <outlet property="btnPhone" destination="pLV-S4-gHl" id="u9L-23-p9D"/>
+                <outlet property="btnTollfree" destination="mVz-to-hmJ" id="v7n-bJ-UHx"/>
+                <outlet property="btnWebsite" destination="zfV-MC-rjE" id="AlZ-ic-Vsh"/>
+                <outlet property="imgFlag" destination="QTJ-28-sTa" id="roT-br-plq"/>
+                <outlet property="imgView" destination="oB6-h4-fWS" id="BEW-Y4-Cjb"/>
+                <outlet property="lblAddress" destination="fI6-fB-kk1" id="kgQ-k4-3Yh"/>
+                <outlet property="lblCountry" destination="7Yt-xd-8M3" id="mvc-vz-aHj"/>
+                <outlet property="lblName" destination="0JY-GM-Owu" id="5ci-jn-o5x"/>
+                <outlet property="vwAddress" destination="O31-Lk-QRf" id="eHj-Yt-MX1"/>
+                <outlet property="vwEmail" destination="0zK-kz-Ocs" id="LPU-NP-igR"/>
+                <outlet property="vwEmailHeight" destination="OBD-jU-IM1" id="YER-ZJ-z8V"/>
+                <outlet property="vwFax" destination="qDG-BH-fLe" id="ZR3-dk-HSU"/>
+                <outlet property="vwFaxHeight" destination="fP1-Vb-SZM" id="CI6-dw-NA8"/>
+                <outlet property="vwLine" destination="5OT-Fy-1yH" id="XeV-PH-Z8X"/>
+                <outlet property="vwPhone" destination="Ptg-BE-txB" id="p1H-aO-xTH"/>
+                <outlet property="vwPhoneHeight" destination="t87-5H-1IN" id="CZx-fU-HfT"/>
+                <outlet property="vwTollfree" destination="K16-PA-ziY" id="QXT-4U-6Xi"/>
+                <outlet property="vwTollfreeHeight" destination="Mny-Y6-CIm" id="DSi-Kh-p9F"/>
+                <outlet property="vwWebsite" destination="pim-JL-JNp" id="3f4-2c-1fd"/>
+                <outlet property="vwWebsiteHeight" destination="BwW-AJ-8uP" id="1dl-Di-S0O"/>
+            </connections>
+            <point key="canvasLocation" x="26" y="179.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="FAX" width="22" height="22"/>
+        <image name="envelope" width="22" height="22"/>
+        <image name="login_logo" width="80" height="109"/>
+        <image name="map" width="22" height="22"/>
+        <image name="noImage" width="290" height="217"/>
+        <image name="telephone" width="22" height="22"/>
+        <image name="toll-free" width="22" height="22"/>
+        <image name="website" width="22" height="22"/>
+    </resources>
+</document>

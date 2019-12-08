@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="153" id="KGk-i7-Jjw" customClass="SalesPersonCell" customModule="AnkitGems" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="153"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="152.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="veW-GK-LAs">
+                        <rect key="frame" x="8" y="4" width="304" height="144.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sales Person" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bgv-Zt-2p0" customClass="MMLabel" customModule="AnkitGems" customModuleProvider="target">
+                                <rect key="frame" x="99.5" y="8" width="105.5" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="FontName" value="kRegularFont"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="FontSize">
+                                        <real key="value" value="18"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="TextColorKey" value="kThemeColor"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RFo-mv-4lw">
+                                <rect key="frame" x="0.0" y="34.5" width="304" height="1"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="NMG-C4-AvK"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="BackgroundColorKey" value="kBorderColor"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ankit Gems" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R6F-l3-A0c" customClass="MMLabel" customModule="AnkitGems" customModuleProvider="target">
+                                <rect key="frame" x="8" y="43.5" width="288" height="18"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="FontName" value="kRegularFont"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="FontSize">
+                                        <real key="value" value="18"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="TextColorKey" value="kTextColor"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="telephone" translatesAutoresizingMaskIntoConstraints="NO" id="ZTK-gr-EBm">
+                                <rect key="frame" x="8" y="71" width="15" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="nEg-ty-whN"/>
+                                    <constraint firstAttribute="width" constant="15" id="pfD-eH-TKu"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+91 22 4050 4455" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0mh-nO-fpA" customClass="MMLabel" customModule="AnkitGems" customModuleProvider="target">
+                                <rect key="frame" x="31" y="71.5" width="265" height="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="FontName" value="kRegularFont"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="FontSize">
+                                        <real key="value" value="14"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="TextColorKey" value="kThemeColor"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z6E-QV-Lmx">
+                                <rect key="frame" x="8" y="68.5" width="288" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="uGH-FI-cYb"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="btnContact_Click:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="3Zl-cX-is2"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="info@ankitgems.com" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oM8-nT-wdc" customClass="MMLabel" customModule="AnkitGems" customModuleProvider="target">
+                                <rect key="frame" x="31" y="95.5" width="265" height="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="FontName" value="kRegularFont"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="FontSize">
+                                        <real key="value" value="14"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="TextColorKey" value="kThemeColor"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4jq-pZ-ugT">
+                                <rect key="frame" x="8" y="92.5" width="288" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="pYH-aE-bTJ"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="btnEmail_Click:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="1up-TE-Dic"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="email" translatesAutoresizingMaskIntoConstraints="NO" id="SjM-Zi-74C">
+                                <rect key="frame" x="8" y="95" width="15" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="WXR-al-Luj"/>
+                                    <constraint firstAttribute="width" constant="15" id="ylI-ge-QlG"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ZTK-gr-EBm" firstAttribute="centerY" secondItem="0mh-nO-fpA" secondAttribute="centerY" id="2Ui-pM-pzS"/>
+                            <constraint firstItem="R6F-l3-A0c" firstAttribute="top" secondItem="RFo-mv-4lw" secondAttribute="bottom" constant="8" id="67v-Gl-k5Y"/>
+                            <constraint firstItem="0mh-nO-fpA" firstAttribute="leading" secondItem="ZTK-gr-EBm" secondAttribute="trailing" constant="8" id="9ML-g8-2ww"/>
+                            <constraint firstItem="0mh-nO-fpA" firstAttribute="top" secondItem="R6F-l3-A0c" secondAttribute="bottom" constant="10" id="EYV-nr-IDk"/>
+                            <constraint firstItem="SjM-Zi-74C" firstAttribute="leading" secondItem="veW-GK-LAs" secondAttribute="leading" constant="8" id="Frw-dO-Mer"/>
+                            <constraint firstAttribute="trailing" secondItem="R6F-l3-A0c" secondAttribute="trailing" constant="8" id="Fxk-BU-Vri"/>
+                            <constraint firstAttribute="trailing" secondItem="Z6E-QV-Lmx" secondAttribute="trailing" constant="8" id="HCi-nK-eLA"/>
+                            <constraint firstItem="4jq-pZ-ugT" firstAttribute="leading" secondItem="veW-GK-LAs" secondAttribute="leading" constant="8" id="Hmk-EX-3kl"/>
+                            <constraint firstAttribute="trailing" secondItem="RFo-mv-4lw" secondAttribute="trailing" id="Kby-qI-4Qt"/>
+                            <constraint firstItem="Z6E-QV-Lmx" firstAttribute="leading" secondItem="veW-GK-LAs" secondAttribute="leading" constant="8" id="OU0-kE-ZEs"/>
+                            <constraint firstAttribute="trailing" secondItem="oM8-nT-wdc" secondAttribute="trailing" constant="8" id="P5Z-MB-Dmj"/>
+                            <constraint firstItem="SjM-Zi-74C" firstAttribute="centerY" secondItem="oM8-nT-wdc" secondAttribute="centerY" id="Vrr-5h-BQ9"/>
+                            <constraint firstItem="oM8-nT-wdc" firstAttribute="top" secondItem="0mh-nO-fpA" secondAttribute="bottom" constant="10" id="XXH-E2-4B9"/>
+                            <constraint firstItem="ZTK-gr-EBm" firstAttribute="leading" secondItem="veW-GK-LAs" secondAttribute="leading" constant="8" id="XcB-P4-FZx"/>
+                            <constraint firstAttribute="trailing" secondItem="4jq-pZ-ugT" secondAttribute="trailing" constant="8" id="YoC-jj-ijg"/>
+                            <constraint firstItem="R6F-l3-A0c" firstAttribute="leading" secondItem="veW-GK-LAs" secondAttribute="leading" constant="8" id="b67-1S-Ano"/>
+                            <constraint firstItem="Bgv-Zt-2p0" firstAttribute="top" secondItem="veW-GK-LAs" secondAttribute="top" constant="8" id="ecO-Zx-2vq"/>
+                            <constraint firstItem="RFo-mv-4lw" firstAttribute="top" secondItem="Bgv-Zt-2p0" secondAttribute="bottom" constant="8" id="fY5-08-HSV"/>
+                            <constraint firstItem="4jq-pZ-ugT" firstAttribute="centerY" secondItem="oM8-nT-wdc" secondAttribute="centerY" id="hsK-ij-pgS"/>
+                            <constraint firstAttribute="trailing" secondItem="0mh-nO-fpA" secondAttribute="trailing" constant="8" id="l9g-d8-c0q"/>
+                            <constraint firstItem="Z6E-QV-Lmx" firstAttribute="centerY" secondItem="0mh-nO-fpA" secondAttribute="centerY" id="lhE-un-n8C"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="oM8-nT-wdc" secondAttribute="bottom" constant="10" id="qzJ-aR-RLL"/>
+                            <constraint firstItem="oM8-nT-wdc" firstAttribute="leading" secondItem="SjM-Zi-74C" secondAttribute="trailing" constant="8" id="usJ-RI-3jm"/>
+                            <constraint firstItem="Bgv-Zt-2p0" firstAttribute="centerX" secondItem="veW-GK-LAs" secondAttribute="centerX" id="vv9-HO-z77"/>
+                            <constraint firstItem="RFo-mv-4lw" firstAttribute="leading" secondItem="veW-GK-LAs" secondAttribute="leading" id="ytm-2q-lmi"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="veW-GK-LAs" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="4bQ-fn-aIM"/>
+                    <constraint firstAttribute="bottom" secondItem="veW-GK-LAs" secondAttribute="bottom" constant="4" id="MY2-aI-IHr"/>
+                    <constraint firstItem="veW-GK-LAs" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="4" id="Pf1-jR-5Pw"/>
+                    <constraint firstAttribute="trailing" secondItem="veW-GK-LAs" secondAttribute="trailing" constant="8" id="g1U-4F-L5A"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lblEmail" destination="oM8-nT-wdc" id="MGf-XC-Rg0"/>
+                <outlet property="lblName" destination="R6F-l3-A0c" id="9RG-lX-Dfa"/>
+                <outlet property="lblPhone" destination="0mh-nO-fpA" id="FzX-FB-hp4"/>
+                <outlet property="vwMain" destination="veW-GK-LAs" id="nls-nW-AjI"/>
+            </connections>
+            <point key="canvasLocation" x="-54" y="87"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="email" width="22" height="22"/>
+        <image name="telephone" width="22" height="22"/>
+    </resources>
+</document>
